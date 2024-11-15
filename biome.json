@@ -1,0 +1,20 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"rules": {
+			"style": {
+				"noNonNullAssertion": "off"
+			}
+		}
+	},
+	"formatter": {
+		"enabled": true,
+		"ignore": ["node_modules/*", "*.config.*", "*.json", "tsconfig.json"],
+		"lineWidth": 80,
+		"indentWidth": 1,
+		"indentStyle": "tab"
+	}
+}
